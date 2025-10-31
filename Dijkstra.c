@@ -64,5 +64,23 @@ void main(){
         scanf("%d",&src);
         dijkstra(graph,V,src);
 }
+o/p:
+        Enter number of vertices(max 20): 3 
+Enter the adjacency matrix (use 0 for no edge): 
+5 
+4 
+3 
+5 
+2 
+8 
+0 
+0 
+8 
+Enter the source vertex (0 to 2): 0 
+Vertex Distance Path 
+0 0 0 
+1 4 0 -> 1 
+2 3 0 -> 2
+
 
                          
