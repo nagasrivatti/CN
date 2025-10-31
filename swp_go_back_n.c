@@ -32,4 +32,15 @@ void main()
         }
         printf("All frames sent successfully using Go-Back-N!\n");
 }
-~
+o/p:
+        Enter total number of frames to send: 10  
+Enter window size: 4  
+--- GO-Back-N Sliding Window Protocol Simulation --- 
+Sender: Sending frame 0 1 2 3  
+Enter the frame number to be lost (or -1 if none lost): 2  Receiver: Frame 2 lost! Go back and resend from 2  
+Sender: Sending frame 2 3 4 5  
+Enter the frame number to be lost (or -1 if none lost): -1  Receiver: Acknowledged up to frame 5  
+Sender: Sending frame 6 7 8 9  
+Enter the frame number to be lost (or -1 if none lost): -1  Receiver: Acknowledged up to frame 9  
+All frames sent successfully using Go-Back-N!   
+
