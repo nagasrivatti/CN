@@ -59,6 +59,45 @@ void main(){
                         else
                                 printf("%d\n",rt[i].dist[j]);
                 }
+                o/p:
+                        Enter number of nodes (hosts/roters): 4 
+Enter node names (e.g., H1, H2, ...): 
+Node 1: h1 
+Node 2: h2 
+Node 3: h3 
+Node 4: h4 
+Enter adjacency matrix (delay cost, INF=999, 0 for self): 0 
+12 
+9 
+4 
+12 
+0 
+1 
+999 
+9 
+1 
+0 
+2 
+4 
+999 
+2 
+0 
+Routing Table for Node h1: 
+Destination NextHop Cost
+h2 h2 7 
+h3 h3 6 
+h4 h4 4 
+Routing Table for Node h2: Destination NextHop Cost h1 h1 7 
+h3 h3 1 
+h4 - 3 
+Routing Table for Node h3: Destination NextHop Cost h1 h1 6 
+h2 h2 1 
+h4 h4 2 
+Routing Table for Node h4: Destination NextHop Cost h1 h1 4 
+h2 - 3 
+h3 h3 2
+
         }
 }
-
+o/p:
+        
