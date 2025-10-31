@@ -81,3 +81,32 @@ int ham_cal(int position, int c_l)
         else
                 return 1;
 }
+o/p:
+Please enter the length of the Data Word: 8
+Please enter the Data Word:
+1
+1
+0
+0
+0
+1
+1
+0
+The calculated Code Word is:111110000110
+Please enter the received Code Word:
+111110000110
+Please enter the received Code Word:
+1
+1
+1
+1
+1
+0
+0
+0
+0
+1
+1
+1
+Error at bit position:12
+=== Code Exited With Errors ===
