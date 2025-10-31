@@ -31,3 +31,6 @@ void main()
         scanf("%s", data);
         bitStuffing(data);
 }
+o/p:
+Enter binary data(e.g.,01111110111): 01111110011
+        stuffed data:0111110110011
