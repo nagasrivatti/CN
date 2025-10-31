@@ -26,3 +26,6 @@ void main()
         scanf("%s", data);
         charStuff(data);
 }
+o/p:
+Enter input data(eg.,AEFG):Hello
+stuffed frame :$hello$
