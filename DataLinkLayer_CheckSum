@@ -32,3 +32,17 @@ void main() {
         sch=sender(arr, n);
         receiver(arr, n, sch);
 }
+o/p:
+ ENTER SIZE OF THE STRING:3
+enter the elements of the array to calculate check sum:
+0011
+1100
+1010
+
+****SENDER SIDE****
+SUM IS :2121
+CHECKSUM IS :-2122
+
+****RECEIVER SIDE****
+SUM IS :2121
+ CHECK SUM IS :0
