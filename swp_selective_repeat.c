@@ -51,3 +51,32 @@ void main()
         }
         printf("\nAll frames sent and acknowledged successfully!\n");
 }
+o/p:
+        --- Selective Repeat ARQ Simulation ---  
+Enter total number of frames to send: 6  
+Enter window size: 3  
+---Sending Window of Frames ---  
+Frame 0 sent.  
+Frame 1 sent.  
+Frame 2 sent.  
+Did frame 0 get ACK? (1=yes,0=lost): 1  
+ACK for frame 0 received.  
+Did frame 1 get ACK? (1=yes,0=lost): 0  
+Frame 1 lost / not acknowledged.  
+Did frame 2 get ACK? (1=yes,0=lost): 1  
+ACK for frame 2 received. 
+DO you want to resend any lost frame? (Enter frame number, -1 to stop): 1  Resending frame 1...  
+ACK for frame 1 received now.  
+Enter next frame to resend (-1 to stop): -1  
+---Sending Window of Frames ---  
+Frame 3 sent.  
+Frame 4 sent.  
+Frame 5 sent.  
+Did frame 3 get ACK? (1=yes,0=lost): 1  
+ACK for frame 3 received.  
+Did frame 4 get ACK? (1=yes,0=lost): 1  
+ACK for frame 4 received.  
+Did frame 5 get ACK? (1=yes,0=lost): 1  
+ACK for frame 5 received.  
+DO you want to resend any lost frame? (Enter frame number, -1 to stop): -1  All frames sent and acknowledged successfully! 
+
